@@ -70,6 +70,7 @@ export default{
         })
       }).then(res=>res.json())
       
+
     },
     async deleteWorkspace({dispatch},payload){
       const {id} = payload
@@ -83,4 +84,5 @@ export default{
       dispatch('readWorkspaces')
     }
   }
-}
+}}
+
